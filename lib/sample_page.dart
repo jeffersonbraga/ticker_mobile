@@ -7,7 +7,7 @@ import 'package:ticker_mobile/home_page.dart';
 import 'package:ticker_mobile/ticker.dart';
 
 Future<List> fetchAlbum() async {
-  final response = await http.get('http://192.168.0.122:8085/ticker/cards');
+  final response = await http.get('http://192.168.2.105:8085/ticker/cards');
 
   if (response.statusCode == 200) {
     // If the server did return a 200 OK response,

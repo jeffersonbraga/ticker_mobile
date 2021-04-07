@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ticker_mobile/customs/header.dart';
 import 'package:ticker_mobile/customs/new_transaction.dart';
+import 'package:ticker_mobile/customs/ticker_list_card.dart';
 import 'package:ticker_mobile/customs/transaction_card.dart';
 
 class HomePage extends StatefulWidget {
@@ -56,7 +57,7 @@ class _HomePageState extends State<HomePage> {
                 NewTransaction(_opacity, _done)
             ],
           ),
-          TransactionCard(_height)
+          TickerListCard(_height)
         ],
       ),
     );
